@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Virtual environment
+venv/
+
+# Environment variables - never commit this
+.env
+
+# FAISS index and data
+data/index/
+
+# Python cache
+__pycache__/
+*.pyc
